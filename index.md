@@ -2,10 +2,8 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default
 ---
-
-# Liberum Oratio: A decentralized, censorship-resistant, zero-fee alternative to Patreon.
 
 In this post, we would like to introduce *Liberum Oratio*, our uncensorable alternative to Patreon that's running on the Ethereum blockchain.
 
