@@ -36,6 +36,9 @@ If you are a content consumer, you can use our system to:
 - Give one-time donations to creators.
 - Interact with creators via supporter-only chat or Q&A.
 
+## Demo Video
+[![Demo Video](https://img.youtube.com/vi/jeOj2Wy3GFc/hqdefault.jpg)](https://www.youtube.com/watch?v=jeOj2Wy3GFc)
+
 ## Why should I use it?
 
 While classic websites like Patreon can work well, they are inherently centralized, which means that there is someone in the system (usually the company that built the website) that has authoritative power over everything that's happening. A centralized service with a set of vague terms of service can decide on a whim to restrict, demonetize or outright ban any creator for whatever reason they want. Most of these services start out with laudable goals (such as "creators first"), but when media pressure starts to rise or money runs short, those priorities inevitably shift. In short, *relying on a centralized system for your money flows will almost surely go wrong*. We are here to fix this.
