@@ -125,7 +125,8 @@ Let's have a look at how our system could be attacked.
 ## I'm a creator and I'd like to try
 
 We have a [test instance running on the Ropsten testnet](https://ropsten.liberat.io).
-Get in contact with us via [Email](mailto:teamliberatio@gmail.com) or [Twitter](https://twitter.com/TeamLiberatio).
+Once you're happy, sign up on the [main network](https://www.liberat.io).
+Get in contact with us via [Email](mailto:teamliberatio@gmail.com) or [Twitter](https://twitter.com/TeamLiberatio), we're happy to help.
 
 ## I'm a developer and I'd like to help
 
