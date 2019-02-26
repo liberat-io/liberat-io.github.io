@@ -130,5 +130,5 @@ Get in contact with us via [Email](mailto:teamliberatio@gmail.com) or [Twitter](
 
 ## I'm a developer and I'd like to help
 
-Check out our [Github](https://github.com/liberat-io) and contact us via [Email](mailto:teamliberatio@gmail.com).
+Check out our [Github](https://github.com/liberat-io) and contact us via [Email](mailto:teamliberatio@gmail.com) or [Twitter](https://twitter.com/TeamLiberatio).
 
