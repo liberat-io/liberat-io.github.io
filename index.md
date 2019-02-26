@@ -37,6 +37,7 @@ If you are a content consumer, you can use our system to:
 - Interact with creators via supporter-only chat or Q&A.
 
 ## Demo Video
+Warning, this is somewhat long and boring. For more info, just read on. We'd rather spend our time coding than making flashy marketing videos :)
 [![Demo Video](https://img.youtube.com/vi/jeOj2Wy3GFc/hqdefault.jpg)](https://www.youtube.com/watch?v=jeOj2Wy3GFc)
 
 ## Why should I use it?
