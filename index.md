@@ -12,7 +12,7 @@ In this post, we would like to introduce *Liberum Oratio*, our uncensorable alte
 
 *Liberum Oratio* brings the core functionality of sites like Patreon and SubscribeStar to the Blockchain. Our goal is to enable independent content creators to be crowdfunded by their fans via regular payments. It is open to anyone, without restrictions, and is built to be maximally censorship resistant.
 
-The system consists of two parts: The core part is a [smart contract](https://en.wikipedia.org/wiki/Smart_contract) running on the [Ethereum Blockchain](https://en.wikipedia.org/wiki/Ethereum). It implements the core functionality of the system: All relevant data is saved on the Blockchain and all the money flow is handled by the Blockchain. We stand by the principle *your money is your money*. On our system, you and only you can decide to deposit, pledge, revoke or withdraw at any time. Since you interact with the Blockchain directly, we never touch *any* of your money.
+The system consists of two parts: The core part is a [smart contract](https://www.youtube.com/results?search_query=what+is+a+smart+contract). A smart contract is just a computer program, but instead of running on a server, it runs on the [Ethereum Blockchain](https://www.youtube.com/results?search_query=what+is+ethereum). It implements the core functionality of the system: All relevant data is saved on the Blockchain and all the money flow is handled by the Blockchain. We stand by the principle *your money is your money*. On our system, you and only you can decide to deposit, pledge, revoke or withdraw at any time. Since you interact with the Blockchain directly, we never touch *any* of your money.
 
 The second part is a website. [Blockchain technology](https://en.wikipedia.org/wiki/Blockchain) is as of yet very limited in terms of user experience. In fact, the technical know-how required to interact with a smart contract is huge. That's why we have built a website that makes this as easy as possible. It can show you what's happening on the Blockchain and let you use all the features of our smart contract with a few button clicks. Think of it like a front-end that takes data from somewhere else and displays it in a pretty way. Two points are important: First, if you go through our website, we still don't have any control over your money (or your private keys). Any action you do still goes directly from you to the Blockchain. Second, because the Blockchain is completely open, *anyone* can build their own front-end website to the same smart contract. Thus, at no point do we hold any authoritative power over the system.
 
@@ -78,9 +78,20 @@ The second major difference is in the way money flows. On these platforms, money
 
 And before the geek squad rolls in: Yes we know that Bitcoin also has smart contracts, but Ethereum smart contracts can be much more complex and flexible, a feature of which we make full use in order to provide the largest set of features possible.
 
+## How anonymous is your system?
+
+Since the Ethereum Blockchain is open and public, all transactions can be seen by anyone.
+This includes the transaction time, amount and the public wallet addresses of both the sender and receiver, but not their identities.
+That is, as long as you don't tell people what your public wallet address is, there is no way of linking your address to your identity.
+Moreover, you can create as many addresses as you want. Thus, if you're strongly concerned about privacy, you can create a new address regularly or maintain multiple addresses at the same time.
+
+Our system introduces one caveat: Since the creators necessarily link their address to their profile - otherwise people wouldn't know where to donate to - their identity is revealed. This means that a creator's income on the system is public knowledge. Pledgers, however, can remain as anonymous as they want.
+
 ## Why do the creators have to charge manually? Can't you do this automatically?
 
 Our system follows the [pull payment](https://consensys.github.io/smart-contract-best-practices/recommendations/#favor-pull-over-push-for-external-calls) model. This means that the people receiving payments (the creators) have to actively "pull" those payments on the system by clicking the charge button. There are two reasons why we do not perform this automatically. First, this allows funding types to be very flexible. Say you want to charge your supporters each time you upload a video to YouTube or Vimeo. There is no way for our system to automatically know that you have now uploaded a video without introducing an [Oracle](https://blockchainhub.net/blockchain-oracles/) and therefore a centralized authority, which we want to avoid. Second, it is actually very hard to schedule complex transactions on the Blockchain for a time in the future. There are initiatives such as [Ethereum Alarm Clock](https://www.ethereum-alarm-clock.com/), but they do not solve the problem completely.
+
+For convenience, we have built into the system a possibility for creators to *delegate* the task of charging their pledgers to someone else. Note that this is an opt-in feature that can be revoked at any time. The initial idea behind this is that we can offer to creators to perform this task for them. The delegated party can be freely specified by the creator, it does not have to be us. Over time, we expect that people will come up with more creative and efficient ways to use this feature.
 
 ## How do you make money?
 
